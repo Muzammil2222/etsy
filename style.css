@@ -1,0 +1,316 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1500px;
+}
+header {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+}
+.logo img{
+    width: 100%;
+}
+.search {
+    width: 60%;
+}
+.search input {
+    border: 2px solid black;
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 50px;
+}
+.search {
+    padding-top: 10px;
+}
+.etsy-nav {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: sans-serif;
+    display: flex;
+    width: 8%;
+}
+.etsy-nav {
+    width: 8%;
+    padding: 26px 0;
+}
+.etsy-nav i {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.left-sign ul {
+    list-style: none;
+    display: inline-block;
+}
+.left-sign ul li{
+    display: inline;
+}
+li.sign-in {
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.left-sign {
+    margin-top: 10px;
+}
+.left-sign li {
+    padding: 10px;
+    margin-right: 9px;
+}
+.left-sign ul li:hover{
+    border-radius: 30px;
+    padding: 10px;
+    background-color: lightpink;
+}
+.btm-header nav {
+    text-align: center;
+}
+.btm-header nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.btm-header nav ul li {
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 13px;
+    display: inline-block;
+}
+.btm-header nav ul li a {
+    border-radius: 20px;
+    padding: 7px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.btm-header nav ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btm-header nav ul li a:hover{
+    padding: 7px 10px;
+    background-color: #d9d9d9;
+}
+.main-container-header {
+    border-bottom: 2px solid #e1e1e1;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.top-sec {
+    text-align: center;
+}
+.top-sec h2{
+    color: gray;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Guardian-EgypTT","Charter","Charter Bitstream","Cambria","Noto Serif Light","Droid Serif","Georgia","serif";
+}
+.top-sec-box {
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+.sec-box {
+    width: 15%;
+}
+.sec-box img {
+    transition-duration: 0.8;
+    transition: transform .5s ease;
+    border-radius: 81px;
+    width: 55%;
+}
+.sec-box:hover img{
+    box-shadow:0 3px 10px rgb(0 0 0 / 0.2);
+}
+.sec-box:hover {
+    transform: scale(1.1);
+    border-bottom: 2px solid black;
+}
+.main-popular {
+    margin-top: 50px;
+}
+.main-popular h3{
+    font-family: 700;
+    font-size: 30px;
+    font-family: "Graphik Webfont","-apple-system","Helvetica Neue","Droid Sans","Arial","sans-serif";
+}
+.main-popular-box {
+    justify-content: space-between;
+    display: flex;
+}
+.popular-box {
+    padding: 10px;
+    width: 18%;
+}
+.popular-box img{
+    width: 100%;
+}
+.popular-box h3 {
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: .08px;
+    color: #3c3c3c;
+    font-family: "Graphik Webfont","-apple-system","Helvetica Neue","Droid Sans","Arial","sans-serif";
+    font-size: 16px;
+}
+.box-pop-inner img {
+    width: 35%;
+}
+.box-pop-inner {
+    display: flex;
+}
+.box-pop-inner img {
+    height: 20px;
+    width: 26%;
+}
+.box-pop-inner p{
+    width: 20%;
+}
+.box-pop-inner p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.box-pop-inner p {
+    margin-left: 10px !important;
+    margin-top: 4px !important;
+}
+.box-pop-inner-two {
+    display: flex;
+}
+.box-pop-inner-two img {
+    height: 20px;
+    width: 26%;
+}
+.box-pop-inner-two p{
+    width: 40%;
+}
+.box-pop-inner-two p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.box-pop-inner-two p {
+    margin-left: 10px !important;
+    margin-top: 4px !important;
+}
+.box-pop-inner-two {
+    margin-top: 10px;
+}
+.box-pop-inner-two span {
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.box-pop-inner-two p del {
+    color: green;
+}
+.popular-box img {
+    border-radius: 12px;
+}
+.popular-box{
+    transition: all ease .5s;
+}
+.popular-box:hover {
+    transform: scale(1.01);
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 33%);
+}
+.main-popular-box-bottom {
+    display: flex;
+}
+.popular-box-bottom {
+    width: 18%;
+}
+.popular-box-bottom img{
+    width: 100%;
+}
+.popular-box-bottom h3 {
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: .08px;
+    color: #3c3c3c;
+    font-family: "Graphik Webfont","-apple-system","Helvetica Neue","Droid Sans","Arial","sans-serif";
+    font-size: 16px;
+}
+.popular-box-bottom {
+}
+.popular-box-bottom img:hover{
+    transition-duration: 5s;
+}
+.popular-box-bottom img {
+    border-radius: 12px;
+}
+.popular-box-bottom:hover {
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 33%);
+}
+.popular-box-bottom {
+    text-align: center;
+}
+.popular-box-bottom img {
+    border-radius: 12px 12px 0px 0px;
+}
+.main-popular-box-bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-full-what {
+    background: #FDEBD2;
+}
+.easy {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.easy h2 {
+    color: gray;
+    font-size: 32px;
+    font-family: ui-sans-serif;
+    font-weight: 300;
+}
+.easy a {
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.main-what {
+    display: flex;
+    justify-content: space-evenly;
+}
+.what-one {
+    font-family: sans-serif;
+    width: 30%;
+}
+.what-one h3{
+    font-size: 27px;
+}
+.bottom-what {
+    text-align: center;
+}
+.bottom-what h3{
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    font-size: 27px;
+ 
+}
+.bottom-what button {
+    border-radius: 30px;
+    background: transparent;
+    padding: 10px 15px;
+}
+.bottom-what button:hover {
+    box-shadow: 0px 4px 17px 9px #5a5a5a40;
+}
+.main-full-what {
+    padding-bottom: 20px;
+    background: #FDEBD2;
+}
